@@ -21,7 +21,7 @@ app.use(require('./routes/'));
 //static files
 app.use(express.static(path.join(__dirname, 'public')));
 
-//listening the server
+//listening the Server
 app.listen(app.get('port'), () => {
     console.log('Server on port', app.get('port'));
 
